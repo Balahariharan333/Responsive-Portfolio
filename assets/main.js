@@ -27,3 +27,7 @@ function linkAction(){
  }
  navLink.forEach(n => n.addEventListener('click', linkAction) );
  
+ var btn=document.getElementById("sb").innerHTML
+ btn.click(function(){
+  alert("Message was send successfully")
+ });
